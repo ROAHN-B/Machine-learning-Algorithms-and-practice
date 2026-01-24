@@ -87,6 +87,6 @@ print("Knn classification report : \n", classification_report(y_test, knn_pred))
 print("Confusion matrix of Knn classification: \n", confusion_matrix(y_test, knn_pred))
 
 
-joblib.dump(knn_model, "models/knn_model.pkl")
-joblib.dump(log_reg, "models/logistic_regression_model.pkl")
-joblib.dump(scaler, "models/scaler.pkl")
+# joblib.dump(knn_model, "models/knn_model.pkl")
+# joblib.dump(log_reg, "models/logistic_regression_model.pkl")
+# joblib.dump(scaler, "models/scaler.pkl")
